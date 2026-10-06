@@ -11,3 +11,10 @@ Real-world benchmarks, bug fixes, and usage notes from running local AI tooling 
 3. [`OLLAMA_GPU_OVERHEAD` doesn't actually reserve VRAM](03_ollama_gpu_overhead_not_respected.md) — confirmation + a working alternative (browser GPU-acceleration policies)
 4. [20 failure patterns running a local LLM as a coding agent](04_local_llm_coding_agent_pitfalls.md) — a checklist from months of delegating real tasks to gpt-oss:20b
 5. [A silent `<script>`-killing bug in Python triple-quoted HTML templates](05_python_triple_quote_js_escaping_silent_breakage.md) — breaks the frontend while every API test still passes
+6. [OpenUtau "noise" was the monitor's audio jack, not software](06_openutau_noise_was_hardware_not_software.md) — plus practical Korean vocal-synthesis tips (phonemizer, liaison rules, gender curve)
+7. ["Caging" a coding agent: blacklist → whitelist shell sandboxing](07_sandboxing_a_coding_agent_blacklist_to_whitelist.md) — why keyword-blocking a shell hook doesn't hold against command substitution
+8. [A RAG bug where reused `chunk_id`s silently corrupt vectors](08_rag_chunk_id_reuse_corrupts_vectors_silently.md) — and why content-hash keys fix it structurally
+9. [A brand-new AMD RDNA4 card with no manual fan control in the driver](09_amd_rdna4_no_manual_fan_control.md) — Overdrive masking, a stale EFI boot entry, and a dead end
+10. [Android `Dialog` + `WRAP_CONTENT` leaves dead whitespace below content](10_android_dialog_wrap_content_timing_bug.md) — a measure-timing bug, not a layout bug
+11. [Fixing ACE-Step VRAM OOM on repaint — 4 wrong turns before the real fix](11_acestep_vram_oom_four_step_fix.md) — the fix was one env var
+12. ["Hybrid models can't use prompt caching" was wrong](12_ollama_prompt_cache_hybrid_model_self_correction.md) — a two-session debugging arc on Ollama/llama.cpp prompt cache behavior
